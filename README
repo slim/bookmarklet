@@ -1,0 +1,9 @@
+SIMPLE BOOKMARKLET MAKER
+
+you can use it online : http://bookmarklet.alixsys.com/form/
+
+Installation
+unpack the tarball in your document root
+
+Note
+The created bookmarklet exports one function : document.loadscript(<url>) youcan use it in your bookmarklet code to load an external script. 

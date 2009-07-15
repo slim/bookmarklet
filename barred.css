@@ -1,0 +1,128 @@
+body {
+    background-color: white;
+    padding: 10px;
+	margin-top: 50px;
+}
+dt {
+	float: left;
+	border-bottom: 1px solid black;
+	margin-top: 10px;
+}
+dd {
+	clear: both;
+}
+table {
+	display: block;
+	clear: both;
+}
+table, tr, td, th {
+       margin: 0px;
+       border-width: 0px;
+       border-spacing: 0px;
+       border-collapse: collapse;
+}
+table * tr td {border: solid 1px silver; padding: 5px}
+table * tr th {border: solid 1px silver; padding: 5px}
+table thead * th {
+	border: solid 1px; 
+	border-color: ThreeDHighlight ThreeDShadow ThreeDShadow ThreeDHighlight;
+	padding: 5px;
+}
+thead {
+  background-color: ThreeDFace;
+}
+form {
+  margin: 50px 30px;
+}
+label {
+  display: block;
+  padding: 10px;
+  background: white;
+}
+p label {
+  float: left;
+}
+hr {
+	border: 0;
+	width: 80%;
+	height: 1px;
+	background-color: silver;
+}
+input, textarea {
+  display: block;
+}
+input:focus, textarea:focus {
+  background: yellow;
+}
+input[disabled], textarea[disabled], input[readonly], textarea[readonly] {
+  	background-color: white;
+	color: black;
+	border: none;
+	border-top: 1px solid black;
+	padding: 5px;
+}
+#selection table tr td {border: none}
+#indicateurs {
+    margin-bottom: 10px;
+    background: silver;
+}
+#message_serveur {
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+    clear: left;
+    margin: 5px;
+    padding: 10px;
+}
+#entete {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+}
+#entete h1 {
+    clear: right;
+    margin: 5px;
+    padding: 10px;
+	color: white;
+	background-color: black;
+	font-size: 30px;
+}
+.bouton {
+	color: blue;
+	text-decoration: underline;
+	padding: 5px;
+	border: 1px solid;
+	cursor: pointer;
+}
+#entete .bouton { 
+	border: 1px outset silver ; 
+	padding: 5px 10px; 
+	color: black; 
+	background-color: lightgrey; 
+	text-decoration:none;
+}
+.inactif {
+	color: black;
+}
+.numerique {text-align: right}
+.message_erreur {
+    color: white;
+    font-weight: bold;
+    background-color: red;
+	padding: 10px;
+	margin: 5px;
+}
+
+.message_notification {
+    color: white;
+    font-weight: bold;
+    background-color: green;
+	padding: 10px;
+	margin: 5px;
+}
+.message_aide {
+    color: black;
+    background-color: lavender;
+	padding: 10px;
+	margin: 5px;
+}
