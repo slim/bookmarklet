@@ -15,7 +15,7 @@ textarea:focus {
   <label>Code<textarea name="j" rows="24" cols="80">
 document.loadscript("");
   </textarea></label>
-  <label>Description<input name="d" type="text" size="50"/></label>
+  <label>Description<input name="d" type="text" size="50" value="Drag'n'Drop the bookmarklet on your browser toolbar." /></label>
   <button type="submit">Make a bookmarklet</button>
 </form>
 </body> 
